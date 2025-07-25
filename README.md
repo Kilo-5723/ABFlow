@@ -6,7 +6,7 @@ Folder cpp/ contains all codes in this work.
 
 # Compile
 
-Execute the following commands to compile the source code:
+Execute the following command to compile the source code:
 
 ```
 g++ -O3 -std=c++20 cpp/solution.cpp -o ABFlow
@@ -20,7 +20,7 @@ sample/sample.gra is a sample graph (STFN)
 
   u v t c
 
-  which indicates a TFN update <e = (u, v), t, c>
+  which indicate a TFN update <e = (u, v), t, c>
 
 sample/sample.qry is a sample query
 
@@ -46,8 +46,8 @@ To run the ABFlow query, execute the following command:
 
 - graph_file is the file path of graph data
 - query_file is the file path of query data
-- w_ratio is the ratio of sliding window size $w$ over the total size of the timespan of graph data
-- mode_id is the mode id for algorithms in this paper
+- w_ratio is the ratio of sliding window size w over the total size of the timespan of graph data
+- mode_id is the id for algorithms in this paper
 
 To run the sample with sliding window size w = 3 updates (6 updates in total):
 
