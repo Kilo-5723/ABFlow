@@ -1,4 +1,14 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <tuple>
+#include <unordered_set>
+#include <algorithm>
+#include <ctime>
+#include <map>
+#include <cstdlib>
+#include <string>
+#include <cstdio>
 using namespace std;
 #include "header/stream.h"
 
