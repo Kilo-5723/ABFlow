@@ -80,3 +80,12 @@ To run the sample with sliding window size w = 3 updates (6 updates in total):
   ./ABFlow sample/sample.gra sample/sample.qry 0.5 5
   ```
 
+
+# Example
+
+To run SuffixFlow_rec in this paper on the sample graph and query, execute:
+
+```
+g++ -O3 -std=c++20 cpp/solution.cpp -o ABFlow
+  ./ABFlow sample/sample.gra sample/sample.qry 0.5 4
+```

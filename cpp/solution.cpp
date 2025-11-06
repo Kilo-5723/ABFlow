@@ -1,14 +1,14 @@
-#include <iostream>
+#include <algorithm>
+#include <cstdio>
+#include <cstdlib>
+#include <ctime>
 #include <fstream>
-#include <vector>
+#include <iostream>
+#include <map>
+#include <string>
 #include <tuple>
 #include <unordered_set>
-#include <algorithm>
-#include <ctime>
-#include <map>
-#include <cstdlib>
-#include <string>
-#include <cstdio>
+#include <vector>
 using namespace std;
 #include "header/stream.h"
 
