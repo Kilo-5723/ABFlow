@@ -1,6 +1,7 @@
 # ABFlow: Alert Bursting Flow Query in Streaming Temporal Flow Networks
 
 ABFlow-tr.pdf is the full technical report of our initial submission.
+
 ABFlow-tr-revision.pdf is the full technical report after the revision.
 
 Folder cpp/ contains all codes in this work.
@@ -84,18 +85,18 @@ g++ -O3 -std=c++20 cpp/solution.cpp -o ABFlow
 ./ABFlow sample/sample.gra sample/sample.qry 0.5 4
 ```
 
-The expected output is:
+SuffixFlow_rec should find a bursting flow with burstiness = 0.5 and window size = 2. The expected output is:
 ```
 Edge count: 6
 Sources are: 1 
 Sinks are: 6 
 Loading completes.
-Density: 0.5
+Burstiness: 0.5
 Window Size: 2
-Total Runtime: 1.2e-05 second
-Average Runtime per Update: 6e-06 second
+Total Runtime: 1.1e-05 second
+Average Runtime per Update: 5.5e-06 second
 Total Runtime on Each Recursion Level (Starting from 0, outside the recursion):
- 5e-06 s ;
+ 4e-06 s ;
 Total Graph Size on Each Recursion Level (Starting from 0, outside the recursion):
  2 ;
 ```
