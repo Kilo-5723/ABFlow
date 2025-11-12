@@ -63,7 +63,7 @@ int main(int argc, char* argv[]) {
       cntT++;
     }
   }
-  cout << "Density: " << ans.first << endl;
+  cout << "Burstiness: " << ans.first << endl;
 
   cout << "Window Size: " << ans.second << endl;
 
