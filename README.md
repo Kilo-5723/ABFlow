@@ -38,6 +38,10 @@ sample/sample.qry is a sample query
 
   where m is the number of sinks, and {t1, ..., tm} is the sink set T
 
+# Datasets
+
+Datasets used in experiments in this paper (Btc2011, Btc2012, Btc2013, CTU-13, Prosper) can be downloaded at https://drive.google.com/file/d/1YXMJ5DGnTelyre_qQlvrNrFAG2OpAuEn/view?usp=sharing
+
 # Execution
 
 To run the ABFlow query, execute the following command:
